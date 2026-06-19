@@ -8,10 +8,10 @@ public class Categoria extends Base {
     public Categoria(){ super();}
 
     //constructor relleno
-    public Categoria(String descripcion, String nombre) {
+    public Categoria(String nombre, String descripcion) {
         super();
-        this.descripcion = descripcion;
         this.nombre = nombre;
+        this.descripcion = descripcion;
     }
 
     // getters y setters
